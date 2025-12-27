@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="6aYeJT8eLIlPXgz7tWTa">
-    <mxGraphModel>
+    <mxGraphModel dx="872" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IlLDlN-56RC07bDE5BkT-3" parent="1" style="html=1;whiteSpace=wrap;verticalAlign=top;" value="&lt;b&gt;Election Management Nickara&lt;/b&gt;" vertex="1">
+          <mxGeometry height="550" width="400" x="260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Support Staff" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login" vertex="1">
+          <mxGeometry height="60" width="110" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;p class=&quot;MsoListParagraph&quot; style=&quot;text-indent: -18pt;&quot;&gt;Create Election Organization&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="275" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Approve / Reject Election Request" vertex="1">
+          <mxGeometry height="60" width="125" x="275" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Voters" vertex="1">
+          <mxGeometry height="70" width="120" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Document (Ballot Box)" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Candidate (Candidate Box)" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Complete Forms Using Keyboard " vertex="1">
+          <mxGeometry height="75" width="120" x="490" y="257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Access Forms via Screen Reader" vertex="1">
+          <mxGeometry height="70" width="120" x="490" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Access Images with Alternative Text" vertex="1">
+          <mxGeometry height="70" width="120" x="490" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-16" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.008;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" target="IlLDlN-56RC07bDE5BkT-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="540" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-17" edge="1" parent="1" source="IlLDlN-56RC07bDE5BkT-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" target="IlLDlN-56RC07bDE5BkT-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlLDlN-56RC07bDE5BkT-18" edge="1" parent="1" source="IlLDlN-56RC07bDE5BkT-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.917;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="IlLDlN-56RC07bDE5BkT-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="350" y="450" as="sourcePoint" />
+            <mxPoint x="510" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
